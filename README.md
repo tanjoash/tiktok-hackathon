@@ -35,7 +35,7 @@ Our Approach:
 
 Ad Scoring:
 We propose a weighted system to score advertisements. We use scaled features 'punish_num' and 'avg_ad_revenue'. The formula we employ is:
-$\text{ad score} = w_1 \times (\text{punish_num}) + w_2 \times (\text{avg_ad_revenue})$
+$ad score = w_1 \times (punish_num) + w_2 \times (avg_ad_revenue)$
 Ads are then ranked from highest to lowest score, indicating their priority for review.
 
 Moderator Scoring:
