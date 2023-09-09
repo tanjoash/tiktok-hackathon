@@ -14,7 +14,7 @@ Scrolling through TikTok should feel like a personalized adventure. Using mathem
 <br /><br />
 - Joash Tan
   - Joash is fascinated in the wonders of how digitalisation can revolutionize the future of our world. With experience in web/app development, he is built with the skill sets for front-end development and UI/UX but his passion still lies in data analytics. In his free time, he enjoys writing music-related blogs and doubles as a part-time physics tutor.
-  - [Joash's LinkedIn](www.linkedin.com/in/tanjoash)
+  - [Joash's LinkedIn](https://www.linkedin.com/in/tanjoash)
 <br /><br />
 - Justin Wong
   - Justin is a tech enthusiast and he founded a club to educate others about the intricacies of tech startups. He also enjoys fishing during the weekends and has a newfound passion for fishing on kayaks.
