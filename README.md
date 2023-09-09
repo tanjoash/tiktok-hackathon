@@ -69,4 +69,4 @@ By implementing this approach, we anticipate a rise of over 10% in ad moderators
   - tiktok_eda_preprocessing.ipynb takes into account the raw dataset: ads and moderators and does some visualisation and preprocessing to give the output csv to run in our optimization model.
 
 - Optimization
-  - tiktok_optimisation_model.ipynb takes the preprocessed data from tiktok_eda_preprocessing.ipynb and runs the optimization model to give the desired output.
+  - tiktok_optimization_model.ipynb takes the preprocessed data from tiktok_eda_preprocessing.ipynb and runs the optimization model to give the desired output.
