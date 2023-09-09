@@ -4,6 +4,8 @@ Scrolling through TikTok should feel like a personalized adventure. Using mathem
 
 ## Our team: TikTok on the Clock
 
+We are a group of sophomores from Singapore University of Technology and Design, studying Engineering Systems and Design and our interests lie in leveraging data to innovate tech solutions. Our team is thrilled to be joining the TikTok Hackathon Challenge 2023 focused on social media advertisement moderation process optimization. In a digital era where content safety is paramount, we're eager to create a dynamic stochastic optimization model that will intelligently score and prioritize advertisements for review, ensuring efficient content-moderator matching. With a shared passion for enhancing online safety and user experience, we're committed to leveraging our expertise to make a positive impact on TikTok's advertisement moderation process.
+
 - Emily Chee
   - Emily is interested in delving into and enhancing the digital world. WIth a focus on data analytics, she is learning to master the art of managing vast datasets and enhancing data accuracy. Her experience as an avid social media user, gives her a unique insight into user experiences and trends. And yes, she's a proud coffee addict.
   - [Emily's LinkedIn](https://www.linkedin.com/in/emily-chee-1144391a8/)
@@ -17,7 +19,7 @@ Scrolling through TikTok should feel like a personalized adventure. Using mathem
   - [Joash's LinkedIn](https://www.linkedin.com/in/tanjoash)
 <br /><br />
 - Justin Wong
-  - Justin is a tech enthusiast and he founded a club to educate others about the intricacies of tech startups. He also enjoys fishing during the weekends and has a newfound passion for fishing on kayaks.
+  - Justin's interests lies in tech and entrepreneurship, and he also enjoys fishing during his free time.
   - [Justin's LinkedIn](https://www.linkedin.com/in/justinwongwj/)
 <br /><br />
 - Raynard Chai
