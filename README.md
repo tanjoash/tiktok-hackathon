@@ -48,6 +48,7 @@ Post scoring, we deploy a matching algorithm to pair high-priority ads with top-
 
 Optimization Using Genetic Algorithm:
 To realize the twin objectives of revenue maximization and risk mitigation, we've framed objective functions:
+
 $\text{Estimated revenue rate} = \text{accuracy} \times \frac{\text{avg ad revenue}}{\text{handling time}}$
 $\text{Estimated riskiness} = (1 - \text{accuracy}) \times \text{punish num}$
 These functions will be solved using a genetic algorithm to reach an optimal solution.
