@@ -31,7 +31,7 @@ Scrolling through TikTok should feel like a personalized adventure. Using mathem
 **Background**:
 Internet companies heavily rely on advertisements for revenue generation. These advertisements are pivotal only post their moderation to ensure they pose no risk to the platform, users, or advertisers. There exists a dire need to prioritize ad content that is most valuable or risk-laden, enhancing the review process's efficiency. Moreover, aligning an ad with the best-fit moderator based on various dimensions becomes crucial for maintaining review accuracy.
 
-#### Our Approach:
+### Our Approach:
 
 **Ad Scoring**:
 
@@ -55,9 +55,17 @@ Subsequently, we deployed a matching algorithm to pair high-priority ads with to
 To realize the twin objectives of revenue maximization and risk mitigation, we've framed the following objective functions:
 
 $\text{Estimated revenue rate} = \text{accuracy} \times \frac{\text{avg ad revenue}}{\text{handling time}}$
+
 $\text{Estimated riskiness} = (1 - \text{accuracy}) \times \text{punish num}$
 These functions will be solved using a genetic algorithm to reach an optimal solution.
 
 **Expected Outcomes**:
 
 By implementing this approach, we anticipate a rise of over 10% in ad moderators' utilization, which translates to a surge in review efficiency and ultimately an increment in revenue. We also aim for a collaborative environment and seamless communication throughout the process.
+
+## File strucutre
+- Preprocessing
+  - tiktok_eda_preprocessing.ipynb takes into account the raw dataset: ads and moderators and does some visualisation and preprocessing to give the output csv to run in our optimization model.
+
+- Optimization
+  - tiktok_optimisation_model.ipynb takes the preprocessed data from tiktok_eda_preprocessing.ipynb and runs the optimization model to give the desired output.
