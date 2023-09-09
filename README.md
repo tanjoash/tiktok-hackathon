@@ -34,24 +34,30 @@ Internet companies heavily rely on advertisements for revenue generation. These 
 #### Our Approach:
 
 **Ad Scoring**:
-We propose a weighted system to score advertisements. We use scaled features 'punish_num' and 'avg_ad_revenue'. The formula we employ is:
+
+We propose a weighted system to score the advertisements. We will be using use scaled features 'punish_num' and 'avg_ad_revenue'. The formula we employed is:
 $\text{ad score} = w_1 \times (\text{punish num}) + w_2 \times (\text{avg ad revenue})$
+
 Ads are then ranked from highest to lowest score, indicating their priority for review.
 
 **Moderator Scoring**:
+
 Recognizing the importance of having adept moderators, we've also devised a scoring system for them. The scoring is influenced by the moderator's average handling time (inverse relation) and their accuracy. The mathematical representation is:
 $\text{moderator score} = v_1 \times \frac{1}{\text{handling time}} + v_2 \times \text{accuracy}$
 Following this, moderators are ranked from highest to lowest indicating their proficiency.
 
 **Matching Algorithm**:
-Post scoring, we deploy a matching algorithm to pair high-priority ads with top-performing moderators. The aim is to achieve a synergetic match where both the ad's significance and the moderator's competence are optimized.
+
+Subsequently, we deployed a matching algorithm to pair high-priority ads with top-performing moderators. This seeks to achieve a synergetic match where both the ad's significance and the moderator's competence are optimized.
 
 **Optimization Using Genetic Algorithm**:
-To realize the twin objectives of revenue maximization and risk mitigation, we've framed objective functions:
+
+To realize the twin objectives of revenue maximization and risk mitigation, we've framed the following objective functions:
 
 $\text{Estimated revenue rate} = \text{accuracy} \times \frac{\text{avg ad revenue}}{\text{handling time}}$
 $\text{Estimated riskiness} = (1 - \text{accuracy}) \times \text{punish num}$
 These functions will be solved using a genetic algorithm to reach an optimal solution.
 
 **Expected Outcomes**:
-By implementing this approach, we anticipate a rise of over 10% in ad moderators' utilization, translating to a surge in review efficiency and ultimately an increment in revenue post-model implementation. We also aim for a collaborative environment and seamless communication throughout the process.
+
+By implementing this approach, we anticipate a rise of over 10% in ad moderators' utilization, which translates to a surge in review efficiency and ultimately an increment in revenue. We also aim for a collaborative environment and seamless communication throughout the process.
