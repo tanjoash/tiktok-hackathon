@@ -60,10 +60,6 @@ $\text{Estimated riskiness} = (1 - \text{accuracy}) \times \text{punish num}$
 
 These functions will be solved using a genetic algorithm to reach an optimal solution.
 
-**Expected Outcomes**:
-
-By implementing this approach, we anticipate a rise of over 10% in ad moderators' utilization, which translates to a surge in review efficiency and ultimately an increment in revenue. We also aim for a collaborative environment and seamless communication throughout the process.
-
 ## File strucutre
 - Preprocessing
   - tiktok_eda_preprocessing.ipynb takes into account the raw dataset: ads and moderators and does some visualisation and preprocessing to give the output csv to run in our optimization model.
